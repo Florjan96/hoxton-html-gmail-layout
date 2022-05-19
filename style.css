@@ -1,0 +1,95 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+.container{
+height:100vh ;
+display:grid;
+grid-template:
+'header header header'50px
+'left-menu main right-menu'1fr/
+150px 1fr 200px;
+
+gap:0.5em;
+
+
+}
+
+.header{
+background-color:white;
+grid-area:header;
+
+
+
+}
+
+
+
+.left-menu{
+background-color:white;
+grid-area:left-menu;
+display:grid;
+align-content: start;
+  gap: 0.5rem;
+  padding: 1rem;
+  overflow: scroll;
+}
+
+.main{
+    background-color:#bfcac220;
+    grid-area:main;
+overflow: scroll;
+}
+
+.right-menu{
+background-color:white;
+grid-area:right-menu;
+
+}
+
+.gmail{
+    margin-left:15px;
+}
+
+.button{
+   height:30px;
+   width:100px;
+   border-radius:50px;
+   margin:8px 0px 0px 15px;
+}
+
+.list{
+    margin-left:40px;
+padding:10px;
+}
+
+p{
+    margin-bottom: 10px;
+    
+}
+
+.right-menu{
+    display:grid;
+    align-content: start;
+    margin-bottom: 10px;
+    gap: 0.5rem;
+    padding: 1rem;
+
+}
+
+.but button{
+border-color: white;
+   color:rgb(39, 39, 155);
+   width:20vw;
+   align-content: start;
+   background-color: white;
+font-weight: bold;
+
+
+.content{
+
+}
+   
